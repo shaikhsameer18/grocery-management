@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100..900&family=Prata&family=Poppins:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a.active hr {
+    display: block;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+    color: #1E3A8A; /* Dark blue for global text */
+}
+
+/* Apply Poppins font */
+.poppins-regular {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #3B82F6; /* Light blue for Poppins text */
+}
+
+.prata-regular {
+    font-family: 'Prata', serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px; /* Increased font size */
+    color: #1E40AF; /* Medium blue for Prata text */
+}
+
+html {
+    font-size: 18px; /* Global font size increase */
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-width: 640px) {
+    a.active {
+        background-color: #3B82F6; /* Light blue background for active links */
+        color: white;
+    }
+}
