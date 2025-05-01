@@ -4,6 +4,10 @@ Welcome to the **Grocery Management System** repository! This project is designe
 
 ---
 
+![Logo](https://i.postimg.cc/Nj3GWK6q/Screenshot-2025-05-01-220339.png)
+
+---
+
 ## Features
 
 - **Inventory Management**: Add, update, and manage grocery items.
